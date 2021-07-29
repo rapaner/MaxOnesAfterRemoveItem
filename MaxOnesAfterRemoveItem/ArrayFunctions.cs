@@ -30,7 +30,7 @@
                 if (element == 0)
                 {
                     //  если единиц не было - поиск первой единицы
-                    if (currentOnesSequence == 0)
+                    if (currentOnesSequence == 0 && previousOnesSequence == 0)
                     {
                         continue;
                     }
